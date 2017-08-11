@@ -26,13 +26,15 @@ class CoffinRoomViewController: UIViewController {
     }
     
     @IBAction func skullPressed(_ sender: Any) {
-        imageViewTwo.isHidden = false
-        textLabel.text = "Whoa!"
+        imageViewTwo.isHidden = !imageViewTwo.isHidden
+        textLabel.text = "Yay!"
     }
+    
     @IBAction func skullPressedTwo(_ sender: Any) {
-        imageViewTwo.isHidden = false
-        textLabel.text = "Whoa!"
+        imageViewTwo.isHidden = !imageViewTwo.isHidden
+        textLabel.text = "Yay!"
     }
+    
     @IBAction func coffinPressed(_ sender: Any) {
         textLabel.text = "I don't want to know what's in it... or what's not..."
     }

@@ -35,7 +35,7 @@
             BlueprintIdentifier = "9423D6E21F3A4A0C009F0249"
             BuildableName = "Final.app"
             BlueprintName = "Final"
-            ReferencedContainer = "container:Final.xcodeproj">
+            ReferencedContainer = "container:Detention.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "9423D6E21F3A4A0C009F0249"
             BuildableName = "Final.app"
             BlueprintName = "Final"
-            ReferencedContainer = "container:Final.xcodeproj">
+            ReferencedContainer = "container:Detention.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

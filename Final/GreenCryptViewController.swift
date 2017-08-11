@@ -24,8 +24,9 @@ class GreenCryptViewController: UIViewController {
     @IBOutlet weak var textLabel: UILabel!
     @IBAction func backPressed(_ sender: Any) {
     }
-    @IBAction func doorPressed(_ sender: Any) {
+    @IBAction func nextButton(_ sender: Any) {
     }
+    
 
     
     @IBAction func brickPressed(_ sender: Any) {

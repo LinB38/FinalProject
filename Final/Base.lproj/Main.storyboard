@@ -1490,7 +1490,6 @@
         <!--Green Crypt View Controller-->
         <scene sceneID="XLK-cy-bvY">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eva-Vz-uCb" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="1ew-AG-Ygg" customClass="GreenCryptViewController" customModule="Final" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lMR-TZ-lKb"/>
@@ -1614,12 +1613,16 @@
                                     <action selector="govDoorOnePressed:" destination="E3g-kc-QlK" eventType="touchUpInside" id="rd9-Ol-5Au"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50F-hK-inP">
-                                <rect key="frame" x="514" y="0.0" width="56" height="302"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLh-gg-4qD">
+                                <rect key="frame" x="675" y="372" width="38" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.98690515759999997" green="0.9285681844" blue="0.016479728740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
-                                    <action selector="doorPressed:" destination="1ew-AG-Ygg" eventType="touchUpInside" id="bUw-LX-M2q"/>
-                                    <segue destination="JEk-Rw-qma" kind="show" id="QvV-Pc-HoH"/>
+                                    <action selector="nextButton:" destination="1ew-AG-Ygg" eventType="touchUpInside" id="acn-y6-HS3"/>
+                                    <segue destination="JEk-Rw-qma" kind="show" id="lpS-N4-qf3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1639,6 +1642,7 @@
                         <outlet property="textLabel" destination="Flg-X9-1Lc" id="Eg7-vC-4Mw"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eva-Vz-uCb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7360.597826086957" y="-671.01449275362324"/>
         </scene>
@@ -1731,16 +1735,14 @@
                                 <rect key="frame" x="411" y="55" width="28" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="govDoorOnePressed:" destination="E3g-kc-QlK" eventType="touchUpInside" id="hY0-kn-ugZ"/>
-                                    <action selector="skullPressedTwo:" destination="JEk-Rw-qma" eventType="touchUpInside" id="kAE-Uh-lvN"/>
+                                    <action selector="skullPressedTwo:" destination="JEk-Rw-qma" eventType="touchUpInside" id="aZA-PQ-BO8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWj-E4-nli">
                                 <rect key="frame" x="251" y="59" width="28" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="govDoorOnePressed:" destination="E3g-kc-QlK" eventType="touchUpInside" id="xGq-vh-ZZI"/>
-                                    <action selector="skullPressed:" destination="JEk-Rw-qma" eventType="touchUpInside" id="kWZ-v5-4Fu"/>
+                                    <action selector="skullPressed:" destination="JEk-Rw-qma" eventType="touchUpInside" id="rx0-O3-PFO"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOL-YF-HjE">
@@ -1793,33 +1795,32 @@
                                     <color key="titleColor" red="0.98690515759999997" green="0.9285681844" blue="0.016479728740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="backPressed:" destination="JEk-Rw-qma" eventType="touchUpInside" id="oJG-7A-pwB"/>
+                                    <action selector="backPressed:" destination="JEk-Rw-qma" eventType="touchUpInside" id="X0E-Bc-Lvy"/>
+                                    <segue destination="1ew-AG-Ygg" kind="show" id="J2D-V1-kpA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yew-X9-HrQ">
                                 <rect key="frame" x="273" y="186" width="151" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="skullPressedTwo:" destination="JEk-Rw-qma" eventType="touchUpInside" id="PmK-fv-Dwa"/>
+                                    <action selector="coffinPressed:" destination="JEk-Rw-qma" eventType="touchUpInside" id="ykK-De-zEh"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="XzX-k5-QKV" id="QiY-Ar-w00"/>
-                        <outlet property="imageViewTwo" destination="XhU-fc-tX5" id="4Jd-Tc-YyD"/>
-                        <outlet property="itemFive" destination="KJC-Vy-uuU" id="pta-Wo-kAO"/>
-                        <outlet property="itemFour" destination="XyJ-v1-sPe" id="S0P-tL-0i2"/>
-                        <outlet property="itemOne" destination="aOL-YF-HjE" id="2dU-e2-AQV"/>
-                        <outlet property="itemSeven" destination="cSs-N1-DTa" id="hUO-9Z-GX7"/>
-                        <outlet property="itemSix" destination="O38-GM-a3v" id="ee6-rx-T4z"/>
-                        <outlet property="itemThree" destination="WBM-Vo-Mvv" id="Xme-0k-Bse"/>
-                        <outlet property="itemTwo" destination="8Pq-5H-A1y" id="tyM-Rh-w6u"/>
-                        <outlet property="nameLabel" destination="PdM-rF-BEv" id="a6W-BH-Pid"/>
-                        <outlet property="skullPressed" destination="BWj-E4-nli" id="8Ag-oq-72Y"/>
-                        <outlet property="skullPressedTwo" destination="BQa-mG-kjc" id="6ok-VF-Xni"/>
-                        <outlet property="textLabel" destination="1fZ-wE-Fy8" id="pih-Az-Jue"/>
+                        <outlet property="imageView" destination="XzX-k5-QKV" id="qqZ-yq-QmJ"/>
+                        <outlet property="imageViewTwo" destination="XhU-fc-tX5" id="aDO-w7-HV0"/>
+                        <outlet property="itemFive" destination="KJC-Vy-uuU" id="dUh-Xc-2MV"/>
+                        <outlet property="itemFour" destination="XyJ-v1-sPe" id="Byh-ep-3H5"/>
+                        <outlet property="itemOne" destination="aOL-YF-HjE" id="xrQ-nN-2uh"/>
+                        <outlet property="itemSeven" destination="cSs-N1-DTa" id="Hxc-cf-6xB"/>
+                        <outlet property="itemSix" destination="O38-GM-a3v" id="zLw-Pz-e8q"/>
+                        <outlet property="itemThree" destination="WBM-Vo-Mvv" id="Pf1-MH-5Ip"/>
+                        <outlet property="itemTwo" destination="8Pq-5H-A1y" id="9iT-Pd-xFT"/>
+                        <outlet property="nameLabel" destination="PdM-rF-BEv" id="zVg-dh-VYi"/>
+                        <outlet property="textLabel" destination="1fZ-wE-Fy8" id="Qh1-Yn-a13"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Ab-Oc-iGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1850,8 +1851,9 @@
         <image name="socSae5yiAbg_abandonedGovt_office" width="640" height="1136"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UQc-qM-fFa"/>
-        <segue reference="Pw7-T3-k8D"/>
         <segue reference="6gK-MP-r4O"/>
+        <segue reference="UQc-qM-fFa"/>
+        <segue reference="J2D-V1-kpA"/>
+        <segue reference="Pw7-T3-k8D"/>
     </inferredMetricsTieBreakers>
 </document>
