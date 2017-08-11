@@ -8,19 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		9423D6E71F3A4A0C009F0249 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9423D6E61F3A4A0C009F0249 /* AppDelegate.swift */; };
-		9423D6E91F3A4A0D009F0249 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9423D6E81F3A4A0D009F0249 /* GameScene.sks */; };
 		9423D6EB1F3A4A0D009F0249 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9423D6EA1F3A4A0D009F0249 /* Actions.sks */; };
 		9423D6ED1F3A4A0D009F0249 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9423D6EC1F3A4A0D009F0249 /* GameScene.swift */; };
 		9423D6EF1F3A4A0D009F0249 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9423D6EE1F3A4A0D009F0249 /* GameViewController.swift */; };
 		9423D6F21F3A4A0D009F0249 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9423D6F01F3A4A0D009F0249 /* Main.storyboard */; };
 		9423D6F41F3A4A0D009F0249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9423D6F31F3A4A0D009F0249 /* Assets.xcassets */; };
 		9423D6F71F3A4A0D009F0249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9423D6F51F3A4A0D009F0249 /* LaunchScreen.storyboard */; };
+		9423D6FF1F3A4B8D009F0249 /* CharacterCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9423D6FE1F3A4B8D009F0249 /* CharacterCreatorViewController.swift */; };
+		9439AA8E1F3E228900B15555 /* GreenCryptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9439AA8D1F3E228900B15555 /* GreenCryptViewController.swift */; };
+		9439AA901F3E22B400B15555 /* CoffinRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9439AA8F1F3E22B400B15555 /* CoffinRoomViewController.swift */; };
+		948145821F3B82C4000F4BF3 /* PageOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948145811F3B82C4000F4BF3 /* PageOneViewController.swift */; };
+		948145881F3BD895000F4BF3 /* PageTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948145871F3BD895000F4BF3 /* PageTwoViewController.swift */; };
+		9481458A1F3BD90C000F4BF3 /* PageThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948145891F3BD90C000F4BF3 /* PageThreeViewController.swift */; };
+		9481458C1F3BD97D000F4BF3 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481458B1F3BD97D000F4BF3 /* PhoneViewController.swift */; };
+		9481458E1F3BD9D8000F4BF3 /* PageFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481458D1F3BD9D8000F4BF3 /* PageFourViewController.swift */; };
+		94F6499D1F3CDCEF00984E17 /* BasementMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6499C1F3CDCEF00984E17 /* BasementMainViewController.swift */; };
+		94F649A11F3CDE9000984E17 /* DoorTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F649A01F3CDE9000984E17 /* DoorTwoViewController.swift */; };
+		94F649A31F3CE04B00984E17 /* GovDoorTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F649A21F3CE04A00984E17 /* GovDoorTwoViewController.swift */; };
+		94F649A61F3CE32700984E17 /* DoorOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F649A51F3CE32700984E17 /* DoorOneViewController.swift */; };
+		94F649A81F3CE42A00984E17 /* DoorThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F649A71F3CE42A00984E17 /* DoorThreeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9423D6E31F3A4A0C009F0249 /* Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9423D6E61F3A4A0C009F0249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9423D6E81F3A4A0D009F0249 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		9423D6EA1F3A4A0D009F0249 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		9423D6EC1F3A4A0D009F0249 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		9423D6EE1F3A4A0D009F0249 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +39,19 @@
 		9423D6F31F3A4A0D009F0249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9423D6F61F3A4A0D009F0249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9423D6F81F3A4A0D009F0249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9423D6FE1F3A4B8D009F0249 /* CharacterCreatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCreatorViewController.swift; sourceTree = "<group>"; };
+		9439AA8D1F3E228900B15555 /* GreenCryptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenCryptViewController.swift; sourceTree = "<group>"; };
+		9439AA8F1F3E22B400B15555 /* CoffinRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffinRoomViewController.swift; sourceTree = "<group>"; };
+		948145811F3B82C4000F4BF3 /* PageOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageOneViewController.swift; sourceTree = "<group>"; };
+		948145871F3BD895000F4BF3 /* PageTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageTwoViewController.swift; path = ../PageTwoViewController.swift; sourceTree = "<group>"; };
+		948145891F3BD90C000F4BF3 /* PageThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageThreeViewController.swift; path = ../PageThreeViewController.swift; sourceTree = "<group>"; };
+		9481458B1F3BD97D000F4BF3 /* PhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		9481458D1F3BD9D8000F4BF3 /* PageFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageFourViewController.swift; sourceTree = "<group>"; };
+		94F6499C1F3CDCEF00984E17 /* BasementMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasementMainViewController.swift; sourceTree = "<group>"; };
+		94F649A01F3CDE9000984E17 /* DoorTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoorTwoViewController.swift; sourceTree = "<group>"; };
+		94F649A21F3CE04A00984E17 /* GovDoorTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GovDoorTwoViewController.swift; sourceTree = "<group>"; };
+		94F649A51F3CE32700984E17 /* DoorOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoorOneViewController.swift; sourceTree = "<group>"; };
+		94F649A71F3CE42A00984E17 /* DoorThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoorThreeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +85,44 @@
 			isa = PBXGroup;
 			children = (
 				9423D6E61F3A4A0C009F0249 /* AppDelegate.swift */,
-				9423D6E81F3A4A0D009F0249 /* GameScene.sks */,
 				9423D6EA1F3A4A0D009F0249 /* Actions.sks */,
 				9423D6EC1F3A4A0D009F0249 /* GameScene.swift */,
 				9423D6EE1F3A4A0D009F0249 /* GameViewController.swift */,
+				9423D6FE1F3A4B8D009F0249 /* CharacterCreatorViewController.swift */,
 				9423D6F01F3A4A0D009F0249 /* Main.storyboard */,
+				94F6499E1F3CDD2400984E17 /* IntroViewControllers */,
+				94F6499F1F3CDD4300984E17 /* GameplayViewControllers */,
 				9423D6F31F3A4A0D009F0249 /* Assets.xcassets */,
 				9423D6F51F3A4A0D009F0249 /* LaunchScreen.storyboard */,
 				9423D6F81F3A4A0D009F0249 /* Info.plist */,
 			);
 			path = Final;
+			sourceTree = "<group>";
+		};
+		94F6499E1F3CDD2400984E17 /* IntroViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				948145811F3B82C4000F4BF3 /* PageOneViewController.swift */,
+				948145871F3BD895000F4BF3 /* PageTwoViewController.swift */,
+				948145891F3BD90C000F4BF3 /* PageThreeViewController.swift */,
+				9481458B1F3BD97D000F4BF3 /* PhoneViewController.swift */,
+				9481458D1F3BD9D8000F4BF3 /* PageFourViewController.swift */,
+			);
+			name = IntroViewControllers;
+			sourceTree = "<group>";
+		};
+		94F6499F1F3CDD4300984E17 /* GameplayViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				94F6499C1F3CDCEF00984E17 /* BasementMainViewController.swift */,
+				94F649A51F3CE32700984E17 /* DoorOneViewController.swift */,
+				94F649A01F3CDE9000984E17 /* DoorTwoViewController.swift */,
+				94F649A21F3CE04A00984E17 /* GovDoorTwoViewController.swift */,
+				94F649A71F3CE42A00984E17 /* DoorThreeViewController.swift */,
+				9439AA8F1F3E22B400B15555 /* CoffinRoomViewController.swift */,
+				9439AA8D1F3E228900B15555 /* GreenCryptViewController.swift */,
+			);
+			name = GameplayViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +162,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9423D6DE1F3A4A0C009F0249 /* Build configuration list for PBXProject "Final" */;
+			buildConfigurationList = 9423D6DE1F3A4A0C009F0249 /* Build configuration list for PBXProject "Detention" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -134,7 +186,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9423D6F21F3A4A0D009F0249 /* Main.storyboard in Resources */,
-				9423D6E91F3A4A0D009F0249 /* GameScene.sks in Resources */,
 				9423D6F41F3A4A0D009F0249 /* Assets.xcassets in Resources */,
 				9423D6F71F3A4A0D009F0249 /* LaunchScreen.storyboard in Resources */,
 				9423D6EB1F3A4A0D009F0249 /* Actions.sks in Resources */,
@@ -148,9 +199,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948145821F3B82C4000F4BF3 /* PageOneViewController.swift in Sources */,
+				9481458A1F3BD90C000F4BF3 /* PageThreeViewController.swift in Sources */,
+				94F649A31F3CE04B00984E17 /* GovDoorTwoViewController.swift in Sources */,
+				9439AA8E1F3E228900B15555 /* GreenCryptViewController.swift in Sources */,
 				9423D6ED1F3A4A0D009F0249 /* GameScene.swift in Sources */,
+				9481458E1F3BD9D8000F4BF3 /* PageFourViewController.swift in Sources */,
+				94F649A81F3CE42A00984E17 /* DoorThreeViewController.swift in Sources */,
+				948145881F3BD895000F4BF3 /* PageTwoViewController.swift in Sources */,
 				9423D6EF1F3A4A0D009F0249 /* GameViewController.swift in Sources */,
+				9481458C1F3BD97D000F4BF3 /* PhoneViewController.swift in Sources */,
+				9439AA901F3E22B400B15555 /* CoffinRoomViewController.swift in Sources */,
 				9423D6E71F3A4A0C009F0249 /* AppDelegate.swift in Sources */,
+				9423D6FF1F3A4B8D009F0249 /* CharacterCreatorViewController.swift in Sources */,
+				94F649A61F3CE32700984E17 /* DoorOneViewController.swift in Sources */,
+				94F6499D1F3CDCEF00984E17 /* BasementMainViewController.swift in Sources */,
+				94F649A11F3CDE9000984E17 /* DoorTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +364,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9423D6DE1F3A4A0C009F0249 /* Build configuration list for PBXProject "Final" */ = {
+		9423D6DE1F3A4A0C009F0249 /* Build configuration list for PBXProject "Detention" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9423D6F91F3A4A0D009F0249 /* Debug */,
@@ -316,6 +380,7 @@
 				9423D6FD1F3A4A0D009F0249 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

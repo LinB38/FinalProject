@@ -18,6 +18,10 @@ class GameScene: SKScene {
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
     
+    override func didMove(to view: SKView) {
+        
+    }
+    
     override func sceneDidLoad() {
 
         self.lastUpdateTime = 0
@@ -40,6 +44,9 @@ class GameScene: SKScene {
             spinnyNode.run(SKAction.sequence([SKAction.wait(forDuration: 0.5),
                                               SKAction.fadeOut(withDuration: 0.5),
                                               SKAction.removeFromParent()]))
+            
+        
+            
         }
     }
     
@@ -108,3 +115,26 @@ class GameScene: SKScene {
         self.lastUpdateTime = currentTime
     }
 }
+
+class CharacterInfo {
+    
+    public var name : String
+    public var playerAge : Int
+    
+    init (gender:Bool, name:String, playerAge:Int){
+        self.name = name
+        self.playerAge = playerAge
+    }
+}
+
+
+
+
+//class MainInstance {
+ //   public static var instance : MainInstance = MainInstance()
+    
+ //   public var genderOptions : CharacterInfo {
+  //      get {return gender}
+  //  }
+    
+//}
